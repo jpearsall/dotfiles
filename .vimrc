@@ -17,6 +17,7 @@ set laststatus=2
 let g:netrw_dirhistmax=0
 let Tlist_GainFocus_On_ToggleOpen=1
 let Tlist_Close_On_Select=1
+let g:NERDTreeQuitOnOpen=1
 
 colorscheme wombat256
 syntax on
