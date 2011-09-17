@@ -1,7 +1,3 @@
-source $HOME/.vim/plugins/BlockComment.vim
-source $HOME/.vim/plugins/taglist.vim
-source $HOME/.vim/plugins/strace.vim
-
 set wrapscan
 set tabstop=4
 "set mouse=a
@@ -51,3 +47,8 @@ autocmd FileType perl iab putm use Test::More qw( no_plan );
 
 "iab papp ^[:r ~/.code_templates/perl_application.pl^M
 "iab pmod ^[:r ~/.code_templates/perl_module.pm^M
+
+call pathogen#infect()
+call pathogen#helptags()
+
+filetype plugin indent on
