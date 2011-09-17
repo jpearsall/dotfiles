@@ -15,6 +15,8 @@ set stl=%f\ %m\ %r\ Line:\ %l/%L[%p%%]\ Col:\ %c\ Buf:\ #%n\ [%b][0x%B]
 set laststatus=2
 
 let g:netrw_dirhistmax=0
+let Tlist_GainFocus_On_ToggleOpen=1
+let Tlist_Close_On_Select=1
 
 colorscheme wombat256
 syntax on
@@ -23,6 +25,7 @@ filetype plugin on
 " make tab in v mode ident code
 vmap <tab> >gv
 vmap <s-tab> <gv
+nnoremap <silent> <s-t> :TlistToggle<CR>
 
 " Perl-centric vim settings
 "
