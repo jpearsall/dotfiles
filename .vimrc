@@ -25,7 +25,7 @@ syntax on
 vmap <tab> >gv
 vmap <s-tab> <gv
 nnoremap <silent> <s-t> :TlistToggle<CR>
-nnoremap <C-f> :NerdTreeToggle<CR>
+nnoremap <C-f> :NERDTreeToggle<CR>
 
 " Perl-centric vim settings
 "
