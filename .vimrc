@@ -20,7 +20,6 @@ let Tlist_Close_On_Select=1
 
 colorscheme wombat256
 syntax on
-filetype plugin on
 
 " make tab in v mode ident code
 vmap <tab> >gv
