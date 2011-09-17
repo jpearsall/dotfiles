@@ -14,6 +14,8 @@ set ch=2
 set stl=%f\ %m\ %r\ Line:\ %l/%L[%p%%]\ Col:\ %c\ Buf:\ #%n\ [%b][0x%B]
 set laststatus=2
 
+let g:netrw_dirhistmax=0
+
 colorscheme wombat256
 syntax on
 filetype plugin on
