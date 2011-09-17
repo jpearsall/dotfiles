@@ -1,9 +1,10 @@
 source $HOME/.vim/plugins/BlockComment.vim
 source $HOME/.vim/plugins/taglist.vim
+source $HOME/.vim/plugins/strace.vim
 
 set wrapscan
 set tabstop=4
-set mouse=a
+"set mouse=a
 set number
 set expandtab
 set tabstop=4
@@ -11,6 +12,7 @@ set history=100
 set incsearch
 set synmaxcol=2048
 set t_Co=256
+set cursorline
 
 set ch=2
 set stl=%f\ %m\ %r\ Line:\ %l/%L[%p%%]\ Col:\ %c\ Buf:\ #%n\ [%b][0x%B]
